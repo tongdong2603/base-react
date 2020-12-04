@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/Error/NotFound.tsx"],"names":["NotFound"],"mappings":"wJAIeA,UAFY,kBAAM","file":"static/js/1.1fcab9fc.chunk.js","sourcesContent":["import React from 'react';\n\nconst NotFound: React.FC = () => <h1>Not Found</h1>;\n\nexport default NotFound;\n"],"sourceRoot":""}

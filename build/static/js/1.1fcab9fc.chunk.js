@@ -1,0 +1,2 @@
+(this["webpackJsonpbase-spa-typescript"]=this["webpackJsonpbase-spa-typescript"]||[]).push([[1],{56:function(s,t,e){"use strict";e.r(t);var p=e(8);e(1);t.default=function(){return Object(p.jsx)("h1",{children:"Not Found"})}}}]);
+//# sourceMappingURL=1.1fcab9fc.chunk.js.map
