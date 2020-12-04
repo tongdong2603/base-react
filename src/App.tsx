@@ -20,5 +20,4 @@ const App: FunctionComponent = () => {
     </Provider>
   );
 };
-
 export default App;

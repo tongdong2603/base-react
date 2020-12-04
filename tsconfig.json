@@ -31,6 +31,9 @@
   ],
   "exclude": [
     "config",
-    "node_modules"
+    "node_modules",
+    "dist",
+    "jest.config.ts",
+    "config-overrides.js"
   ]
 }
