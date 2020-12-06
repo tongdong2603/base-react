@@ -107,21 +107,18 @@ class Http {
   private interceptorsResponse(): void {
     this._http.interceptors.response.use(
       (value: AxiosResponse) => {
-        const { data } = value;
+        const { data, status } = value;
         // eslint-disable-next-line prefer-const
-        let status = 403;
         if (status === 401 || status === 412) {
           return AuthService.logout();
         }
 
         if (status === 403) {
-          console.log(History);
           return History.history.push('/404');
         }
         return data;
       },
       (error: any) => {
-        console.log(History.history);
         History.history.push('/404');
       },
     );

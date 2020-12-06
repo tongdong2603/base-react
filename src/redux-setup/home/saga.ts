@@ -1,5 +1,6 @@
 import { takeEvery, put } from 'redux-saga/effects';
 import { ProductApi } from '@services/Api';
+import { TEST } from '@definitions/saga-type';
 
 function* test() {
   const data = yield ProductApi.getProductById({
@@ -12,5 +13,5 @@ function* test() {
 }
 
 export default function* rootSaga() {
-  yield takeEvery('TEST_TEST', test);
+  yield takeEvery(TEST.ADD_TEST, test);
 }

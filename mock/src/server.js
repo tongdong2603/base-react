@@ -23,7 +23,6 @@ fs.readdirSync(apiRootDir)
       }),
   );
 
-console.log('🚀 ~ file: server.js ~ line 10 ~ files', files);
 
 function fakeData(file, urlPath) {
   const data = {
