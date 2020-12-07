@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "outDir": "./lib",
+        "module": "CommonJS",
+        "declaration": true,
+        "esModuleInterop": true
+    },
+    "include": [
+        "server"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
